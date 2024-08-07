@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../rede-social/imagens/madeira.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#telefone {
+  background-image: url(imagens/telefone.png);
+  background-repeat: no-repeat;
+  background-color: aqua;
+  background-size: cover;
+  width: 250px;
+  height: 510px;
+}
+
+iframe#tela {
+  position: relative;
+  width: 240px;
+  height: 550px;
+  top: 10px;
+  left: 10px;
+}
